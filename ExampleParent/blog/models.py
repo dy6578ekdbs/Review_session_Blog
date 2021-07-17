@@ -11,4 +11,4 @@ class Blog(models.Model):
         return self.title
 
     def summary(self):
-        return self.body[:100]
+        return self.body[:100] #최대 100쟈만 미리 보여주기 

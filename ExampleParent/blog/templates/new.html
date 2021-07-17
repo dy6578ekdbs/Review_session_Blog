@@ -1,0 +1,14 @@
+<h1>Creating Blog</h1>
+
+<form action="{% url 'create' %}" method="post">
+
+    {% csrf_token %} <!--이거 뭐지,,,,보안과 관련있는 것 같기도?-->
+    {{ form.as_p }} <!--as_p는 p태그로 감싸서 불러온다는 뜻-->
+    <button type="submit">제출</button>
+  
+
+    <!--<p>제목: <input type="text" name="title" id=""></p>
+    본문: <textarea name="body" id="" cols="30" rows="10"></textarea>
+    <button type="submit">제출</button>-->
+
+</form>

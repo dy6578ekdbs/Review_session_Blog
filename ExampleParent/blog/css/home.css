@@ -1,0 +1,7 @@
+.blog_post{
+    width: 80%;
+    height: 50px;
+    background: rgb(170, 242, 255);
+    border-radius: 10px;
+    border-style: none;
+}
